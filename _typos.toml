@@ -20,6 +20,8 @@ extend-exclude = [
     "vendor/",
     # Go checksum file
     "go.sum",
+    # README images; typos reads their bytes as text
+    "static/",
 ]
 
 [default.extend-identifiers]
